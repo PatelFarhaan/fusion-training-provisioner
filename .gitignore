@@ -1,7 +1,41 @@
-Retail Customers - Self Paced -515631f3a941.json
-venv
-google_sheet
-mails
-sku_exist.py
-sku_new.py
-test.py
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+*.json
+!training_passwords.json.example
+training_passwords.json
+*.pem
+*.key
+
+# Logs
+*.log
+debug.log
+
+# ChromeDriver
+chromedriver
